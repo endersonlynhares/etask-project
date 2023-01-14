@@ -1,0 +1,62 @@
+.contentTask{
+    width: 100%;
+    padding: 16px 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.taskArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.taskArea textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: var(--gray-300);
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    padding: 8px;
+    background: var(--gray-700);
+    resize: none;
+    font-size: 1rem;
+}
+
+.taskArea button{
+    width: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 17px;
+    border: none;
+    border-radius: 9px;
+    background: var(--cian-500);
+    color:var(--white);
+}
+
+.info{
+    width: 100%;
+    color: var(--cian-500);
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.groupTask{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.info .bunge{
+    background-color: var(--cian-500);
+    color: var(--white);
+    padding: 1px 9px;
+    border-radius: 15px;
+}

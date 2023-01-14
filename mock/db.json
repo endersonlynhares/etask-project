@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "content": "Concluir o modulo 1 do curso de TypeScript",
+            "isFinished": false
+        },
+        {   
+            "id": 2,
+            "content": "Concluir o curso de HTML/CSS do Guanabara ",
+            "isFinished": true
+        },
+        {
+            "id": 3,
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus recusandae.",
+            "isFinished": false
+        }
+    ]
+}
