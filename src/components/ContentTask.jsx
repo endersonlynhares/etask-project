@@ -54,7 +54,7 @@ const ContentTask = () => {
   return (
     <div className={styles.contentTask}>
       <form className={styles.taskArea} onSubmit={handleSubmit(OnSubmit)}>
-        <input type={"text"} required {...register("task", { required: true })} />
+        <input type={"text"} placeholder="Write a task" required {...register("task", { required: true })} />
         <button type="submit">
           <PlusCircle size={30} />
         </button>
@@ -62,10 +62,10 @@ const ContentTask = () => {
 
       <div className={styles.info}>
         <strong>
-          Tarefas Criadas: <span className={styles.bunge}>{countTask}</span>
+          Tasks Created: <span className={styles.bunge}>{countTask}</span>
         </strong>
         <strong>
-          Tarefas Finalizadas{" "}
+          Finished Tasks: {" "}
           <span className={styles.bunge}>
             {" "}
             {countTaskFinished} de {countTask}{" "}
