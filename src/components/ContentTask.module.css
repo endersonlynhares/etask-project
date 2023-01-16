@@ -54,9 +54,24 @@
     margin-top: 15px;
 }
 
-.info .bunge{
+.info .badge{
     background-color: var(--cian-500);
     color: var(--white);
     padding: 1px 9px;
     border-radius: 15px;
+}
+
+@media (max-width: 768px){
+    .info{
+        width: 100%;
+        color: var(--cian-500);
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info strong + strong{
+        margin-top: 6px;
+    }
 }

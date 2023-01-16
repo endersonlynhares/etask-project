@@ -62,13 +62,12 @@ const ContentTask = () => {
 
       <div className={styles.info}>
         <strong>
-          Tasks Created: <span className={styles.bunge}>{countTask}</span>
+          Tasks Created: <span className={styles.badge}>{countTask}</span>
         </strong>
         <strong>
-          Finished Tasks: {" "}
-          <span className={styles.bunge}>
-            {" "}
-            {countTaskFinished} de {countTask}{" "}
+          Finished Tasks: 
+          <span className={styles.badge}>
+            {countTaskFinished} de {countTask}
           </span>
         </strong>
       </div>
